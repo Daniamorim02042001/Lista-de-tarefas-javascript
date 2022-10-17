@@ -5,6 +5,7 @@ form.onsubmit = function (e) {
 	e.preventDefault();
 	const inputField = document.getElementById('task-input');
 	addTask(inputField.value);
+	alert(`Tarfefa ${inputField.value} Adicionada :)`);
 	form.reset();
 };
 
